@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Present</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Michroma&family=Orbitron:wght@400..900&family=Pixelify+Sans:wght@400..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="gift.css">
+</head>
+
+<body>
+  <div class="container" id="halaman1">
+    <h1>welcome !</h1>
+    <div class="bounce">
+    <div class="popup-box">
+      <img src="https://25.media.tumblr.com/a7add1232654ac04f51e9f13fd085e88/tumblr_mm4rbnyMWJ1rfjowdo1_500.gif"
+        class="icon left">
+
+      <h2 class="siap">Ready?</h2>
+      
+      <div class="buttons">
+        <button class="no">no</button>
+        <button class="yes">yes!</button>
+      </div>
+
+      <img src="https://i.gifer.com/2iFb.gif"
+        class="icon right">
+    </div>
+  </div>
+</div>
+ 
+  <div class="container" id="halaman2">
+    <h1 class="nama">Nama kamu siapa?</h1>
+
+    <div class="popup-box">
+      <img src="https://i.pinimg.com/originals/15/0f/78/150f78d18fd597611f77b4ae7d2f1f58.gif"
+        class="icon lefts">
+
+      <form action="#">
+        <label for="nama"></label>
+        <input type="text" id="nama" name="nama" placeholder="ketik disini.." required>
+        <br><br>
+        <input type="submit" value="submit">
+      </form>
+      <img src="https://66.media.tumblr.com/tumblr_m9wlsrDL721rfjowdo1_500.gif"
+        class="icon rights">
+    </div>
+  </div> 
+ 
+  <div id="halaman3">
+    <h2 class="hadiah">Selamat! ini hadiah buat kamu!</h2>
+    <div class="kado">
+      <div class="bounce">
+      <img
+        src="https://png.pngtree.com/png-vector/20240529/ourmid/pngtree-pixel-present-icon-gift-ui-button-vector-png-image_12540795.png"
+        alt="gambar kado">
+    </div> <br>
+    <div class="buka">
+      <button onclick="">Buka kado</button>
+    </div>
+  </div>
+</div>
+
+  <div id="halaman4">
+    <h2 class="halo">Hallo!</h2>
+    <div class="sapa">
+    <p class="sapa-text"> nikmatin hari ini, jangan lupa makan makanan yang enak, </p>
+    <p class="sapa-text"> you deserve all the sweet things today (and everyday)</p>
+    <p class="sapa-text"> wish u all the best cantik! </p>
+     </div> 
+    <br>
+    <div class="nx">
+      <button onclick="">next</button>
+    </div>
+  </div>
+
+
+  <div id="halaman5">
+    <h2 class="hadiah">Selamat makan!</h2>
+    <div class="makanan">
+      <div class="mochi">
+        <div class="bounce">
+        <img
+          src="https://64.media.tumblr.com/a8b959d13970b4d3f3b2e8b4958aab68/bead721c807ece5c-e1/s640x960/63a9ed64eaf0d2ddb5fd3ec9d965a2f31174ed39.gif"
+          alt="mochi"> 
+        </div>
+        <div class="bounced">
+      <div class=kue><img src="https://i.pinimg.com/originals/95/d4/82/95d48272c833d2cb74c19bcfb9d09a9d.gif"
+         alt="kuee">
+    </div>
+  </div>
+    </div>
+    <br>
+  </div>
+    <div class="sls">
+      <button onclick="">selesai</button>
+    </div>
+  </div>
+</div>
+  <div id="alert" class="hidden">
+    <div class="popup">
+      <p>Terimakasih udah mampir</p>
+      <button onclick="tutupAlert()">baiklah!</button>
+    </div>
+  </div>
+
+  <div id="alerts" class="hidden">
+    <div class="popup">
+      <p>why not?</p>
+      <button onclick="tutupAlert1()">ulangi</button>
+    </div>
+  </div>
+  <audio id="lagu" src="Happy Birthday (Piano Version).mp3"></audio>
+  <div id="aler" class="hidden">
+    <div class="popup">
+      <p>putar lagu nya ya?</p>
+      <button onclick="tutupAler()">okay!</button>
+    </div>
+  </div>
+  <div id="alir" class="hidden">
+    <div class="popup">
+      <p>maaf.. ini bukan buat kamu..</p>
+      <button onclick="tutupAlir()">ulangi</button>
+    </div>
+  </div>
+
+  <script src="gift.js"></script>
+</body>
+</html>
